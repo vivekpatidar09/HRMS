@@ -1,0 +1,68 @@
+.r-div fieldset{
+    width: 31rem;
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    line-height: 30px;
+    background-color: #BCEAE6;
+    border: 3px solid #20B9AE;
+    margin: 20px;
+}
+
+.r-div legend{
+    text-align: center;
+    background-color: #20B9AE;
+    width: 30rem;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+}
+
+.ad-container{
+    display: flex;
+}
+
+.ad-container .l-div img {
+ width: 31rem;
+}
+
+.ad-container .r-div{
+    padding: 0px;
+    margin: 0 75px;
+}
+
+@media (max-width: 600px){
+.ad-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-container .l-div img {
+    width: 23rem;
+    margin: auto;
+    display: flex;
+}
+
+.ad-container .r-div {
+    padding: 0px;
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+    margin: 0 ;
+}
+
+.r-div legend {
+    width: 22rem;
+}
+
+.r-div fieldset {
+     width: 0;
+ line-height: 23px;
+     font-size: 14px;
+     margin: 17px auto;
+     display: flex;
+}
+
+}

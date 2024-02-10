@@ -1,0 +1,85 @@
+.logo-div{
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+.logo-div h2{
+    margin: 10px;
+    width: 10rem;
+    font-size: 25px;
+    padding: 40px;
+    text-align: center;
+    background-color: #A5E3DE;
+    border-radius: 20px;
+}
+
+.textarea-div {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.textarea-div fieldset{
+    width: 40rem;
+    padding: 30px;
+    border: 3px solid #20B9AE;
+    border-radius: 8px;
+    background-color: #BCEAE6;
+    text-align: center;
+}
+
+.textarea-div legend{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.textarea-div fieldset img{
+    width: 5rem;
+    z-index: 1;
+}
+
+.textarea-div legend span{
+    background-color: #20B9AE;
+    color: #ffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 19px -9px;
+    /* margin: 10px; */
+
+    width: 200px;
+}
+
+
+@media (max-width: 600px){
+.logo-div {
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+.logo-div h2 {
+    margin: 22px auto;
+    width: 8rem;
+    font-size: 25px;
+    padding: 33px;
+}
+
+.logo-div h2 {
+    margin: 17px;
+}
+
+.textarea-div fieldset {
+    width: 19rem;
+    padding: 23px;
+}
+
+.textarea-div legend span {
+    width: 144px;
+}
+
+
+}

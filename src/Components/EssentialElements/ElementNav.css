@@ -1,0 +1,56 @@
+.element-div h1{
+    color: #20B9AE;
+}
+
+.element-div h1,h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px ;
+}
+
+.element-div .btns{
+    display: flex;
+    justify-content: center;
+}
+
+.btns button{
+    padding: 8px;
+    margin: 8px;
+    border: none;
+    width: 10rem;
+    border-radius: 20px;
+    background-color: #BCEAE6;
+    cursor: pointer;
+}
+
+@media (max-width: 600px){
+    .element-div .btns {
+        display: block;
+        text-align: center;
+        margin: auto;
+}
+
+
+.main-container {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-container .div-1 img {
+    width: 15rem;
+}
+
+.main-container .div-2{
+    display: flex;
+    flex-direction: column;
+    width: 76%;
+}
+
+.headings {
+    padding: 22px;
+}
+}

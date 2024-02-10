@@ -1,0 +1,39 @@
+.contain {
+    padding: 20px;
+}
+.contain button{
+    padding: 20px;
+    width: 200px;
+    font-size: 15px;
+    margin: 20px;
+    background-color: #D9D9D9;
+    border: none;
+    cursor: pointer;
+}
+
+.contain .prod-table{
+    display: flex;
+   justify-content: center;
+   margin: 20px 570px;
+   font-size: 20px;
+}
+
+.contain .prod-list{
+    margin: 40px;
+}
+
+hr{
+    color: #24BAAF;
+    border: 1.5px solid #24BAAF ;
+}
+
+.contain .prod-foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 10px;
+}
+
+.icon img{
+    width: 50px ;
+}

@@ -1,0 +1,58 @@
+.index{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.headings{
+   padding: 80px;
+}
+
+.headings h1{
+    color: #20B9AE;
+}
+
+.index .headings h1,h4{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.headings .btns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.headings button{
+ background-color: #BCEAE6;
+border: none;
+padding: 15px;
+font-size: 12px;
+margin: 20px;
+width: 25rem;
+border-radius: 30px;
+}
+
+.headings button:hover{
+background-color: #20B9AE;
+transition: 0.8s;
+}
+
+@media (max-width: 600px){
+.headings button {
+    font-size: 10px;
+    margin: 7px;
+    width: 11rem;
+}
+
+
+.headings {
+    padding: 0px;
+}
+
+.headings .btns {
+    padding: 24px;
+}
+}

@@ -1,0 +1,87 @@
+.head-container{
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+}
+
+.head-container .head-contain{
+    display: flex;
+    background-color: #20B9AE;
+    padding: 15px;
+    flex-direction: row;
+}
+
+.head-container h4{
+    margin: 10px;
+    color: #ffff;
+    cursor: pointer;
+    display: flex;
+    display: none;
+    user-select: none;
+}
+
+.head-container img{
+    width: 120px;
+    height: 35px;
+    margin: 5px 40px 0 20px;
+    font-size: 20px;
+}
+
+.head-container button{
+    right: 27px;
+    border: none;
+    font-size:17px;
+    font-weight: 700;
+    float: right;
+    position: absolute;
+    width: 120px;
+    border-radius: 5px;
+    height: 45px;
+    padding: 0px;
+    background-color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+    color: #20B9AE;
+}
+
+.head-contain{
+    display: flex;
+    flex-direction: row;
+}
+
+.head-container button:hover{
+    background-color: aliceblue;
+    transition: 0.4s;
+}
+
+
+@media (max-width: 600px){
+.head-container img {
+    width: 100px;
+    height: 30px;
+    margin: 5px 40px 0 0px;
+}
+
+.head-container .head-contain {
+    margin: auto;
+    display: block;
+}
+
+.head-container .head-contain .cate-btn{
+    display: flex;
+    background-color: #20B9AE;
+    padding: 15px;
+    flex-direction: column;
+    /* display: none; */
+}
+
+
+.head-container button{
+    font-size: 13px;
+    width: 63px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+}
+
+}
