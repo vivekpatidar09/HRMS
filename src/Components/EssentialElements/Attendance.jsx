@@ -1,8 +1,22 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 
 function Attendance() {
   return (
     <div className='main-container'>
+
+            <NavLink to="/reports">
+            <button className = 'prev'>❮</button>
+            </NavLink>
+            
+            <NavLink to="/payroll">
+      <button className = 'next'>❯</button>
+    </NavLink>
+      
+      <NavLink to="/">
+      <button className = 'prev'>❮</button>
+      </NavLink>
+
 
     <div className='div-1'>
       <img src="./Images/Untitled design (10) 1 (2).png" />

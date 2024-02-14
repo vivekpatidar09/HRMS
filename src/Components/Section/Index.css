@@ -52,24 +52,21 @@
 }
 
 
-@media (max-width: 600px){
-.logo-div {
+@media (min-width: 300px) and (max-width: 767px) {
+    .logo-div {
     display: flex;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     margin: 4rem 0;
+    padding: 30px;
 }
 
 .logo-div h2 {
-    margin: 22px auto;
     width: 8rem;
     font-size: 25px;
-    padding: 33px;
-}
-
-.logo-div h2 {
-    margin: 17px;
+    padding: 20px;
+    margin: 9px;
 }
 
 .textarea-div fieldset {
@@ -80,6 +77,43 @@
 .textarea-div legend span {
     width: 144px;
 }
+}
 
+@media (min-width: 768px) and (max-width: 1024px){
+    .textarea-div fieldset {
+        width: 30rem;
+        font-size: 22px;
+        padding: 42px;
+    }
 
+    .textarea-div fieldset img {
+        width: 6rem;
+        z-index: 1;
+    }
+
+    .logo-div {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        justify-content: center;
+        margin: auto;
+        width: 1px;
+    }
+
+    .container .images img {
+        width: 20rem;
+        margin: 10px;
+    }
+
+    .logo-div h2 {
+        margin: 15px;
+        width: 15rem;
+        font-size: 38px;
+        padding: 40px;
+    }
+
+    .images button {
+        padding: 14px;
+        font-size: 22px;
+        width: 214px;    
+    }
 }

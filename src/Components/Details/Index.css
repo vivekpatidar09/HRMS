@@ -40,11 +40,14 @@ background-color: #20B9AE;
 transition: 0.8s;
 }
 
-@media (max-width: 600px){
-.headings button {
-    font-size: 10px;
-    margin: 7px;
-    width: 11rem;
+@media (min-width: 300px) and (max-width: 767px) {
+    .headings button {
+        display: flex;
+        margin: 8px auto;
+        font-size: 10px;
+        /* margin: 7px; */
+        width: 11rem;
+        justify-content: center;
 }
 
 
@@ -53,6 +56,15 @@ transition: 0.8s;
 }
 
 .headings .btns {
-    padding: 24px;
+    padding: 24px 0;
 }
 }
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .headings button {
+        width: 21rem;
+        padding: 19px;
+        font-size: 19px;
+    }
+    
+}    

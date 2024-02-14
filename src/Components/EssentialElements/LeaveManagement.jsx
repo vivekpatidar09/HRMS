@@ -1,10 +1,26 @@
-import React from 'react';
-import './LeaveManagement.css'
+import React, { useEffect, useState } from 'react';
+import './LeaveManagement.css';
+import {NavLink } from 'react-router-dom';
 
 function LeaveManagement() {
+
   return (
     <div className='main-container'>
 
+<div>
+            <NavLink to="/reports">
+            <button className = 'prev'>❮</button>
+            </NavLink>
+            <NavLink to="/attendance">
+            <button className = 'next'>❯</button>
+            </NavLink>
+
+
+</div>
+
+            <NavLink to="/reports">
+            <button className = 'prev'>❮</button>
+            </NavLink>
       <div className='div-1'>
         <img src="./Images/Untitled design (10) 1 (1).png" />
       </div>

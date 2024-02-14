@@ -5,10 +5,18 @@
     align-items: center;
 }
 
+.main-container button{
+    background: none;
+    font-size: 70px;
+    outline: none;
+    height: 0;
+    border: none;
+    cursor: pointer;
+}
 
 .main-container img{
-    width: 22rem;
-    margin: 14px 50px;
+    width: 15rem;
+    /* margin: 14px 50px; */
 }
 
 .main-container .div-2 h3{
@@ -21,6 +29,44 @@
     width: 50%;
 }
 
+.main-container img {
+    width: 22rem;
+    margin: 14px 50px;
+    /* position: absolute; */
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+
+.main-container .prev{
+    position: absolute;
+    left: 10px;
+    font-size: 3rem;
+    margin-top: 5rem;
+    display: flex ;
+    justify-content: center;
+
+}
+
+.main-container .next{
+    position: absolute;
+    right:  10px;
+    margin-top: 7.1rem;
+    align-items: center;
+    font-size: 3rem;
+    display: flex ;
+    justify-content: center;
+    
+}
+
+}
+
 .main-container li{
     margin: 10px 0;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .main-container img {
+        width: 22rem;
+        margin: 45px;
+    }
 }

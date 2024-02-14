@@ -90,7 +90,7 @@
     filter: blur(20px);
 }
 
-@media (max-width: 600px){
+@media (min-width: 300px) and (max-width: 767px) {
 .graph-div img {
     width: 15rem;
     z-index: 1;
@@ -123,4 +123,16 @@
 .graph-div {
     overflow: hidden;
 }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .graph-div .bg-1 {
+    height: 50rem;
+    width: 50rem;
+    position: absolute;
+    left: 6rem;
+    top: -124px;
+    filter: blur(20px);
+ }
 }

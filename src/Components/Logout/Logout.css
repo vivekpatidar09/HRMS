@@ -35,5 +35,41 @@ hr{
 }
 
 .icon img{
+    cursor: pointer;
     width: 50px ;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+    .contain .prod-table {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: center; */
+    margin: 0;
+    font-size: 20px;
+}
+
+.contain .prod-foot {
+    display: block;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+.contain .prod-table {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.contain .prod-list {
+    margin: 20px;
+}
+
 }

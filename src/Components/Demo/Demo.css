@@ -61,3 +61,55 @@
     background-color: #43e1d7;
     transition: 0.5s;
 }
+
+@media (min-width: 300px) and (max-width: 767px) {
+    .containers .div-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+
+    .containers img {
+        position: static;
+        width: 22rem;
+    }
+
+    .containers input {
+        margin: 10px auto;
+        padding: 18px;
+        width: 17rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .containers form {
+        display: flex;
+        flex-direction: column;
+        width: 368px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .containers img {
+        width: 25rem;
+        right: 20px;
+    }
+
+    .containers {
+        padding: 34px;
+    }
+
+    .containers form {
+        display: flex;
+        top: 27px;
+        position: relative;
+    }
+    .containers .l-div {
+        margin: 30px;
+    }
+}

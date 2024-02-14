@@ -22,8 +22,8 @@ function App() {
       <Join></Join>
       <LogoMockup></LogoMockup>
       <TextArea></TextArea>
-      {/* <Demo></Demo> */}
-      {/* <Logout></Logout> */}
+      <Demo></Demo>
+      <Logout></Logout>
 
     </div>
   );

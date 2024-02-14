@@ -43,7 +43,7 @@
     position: relative;
 }
 
-@media (max-width: 600px){
+@media (min-width: 300px) and (max-width: 767px) {
     .container .images img {
         width: 10rem;
         margin: 10px;
@@ -61,7 +61,21 @@ br{
 
     .images button{
         width: 115px;
-        margin: -13px 14px;
+        margin: -18px auto;
     }
 
 } 
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    br{
+        display: none;
+    }
+
+    .container .images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        margin: auto;
+    }
+}
