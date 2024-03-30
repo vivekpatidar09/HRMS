@@ -96,7 +96,7 @@
 @media (min-width: 768px) and (max-width: 1024px){
 
     .containers img {
-        width: 25rem;
+        width: 34rem;
         right: 20px;
     }
 
@@ -108,8 +108,31 @@
         display: flex;
         top: 27px;
         position: relative;
+        width: 76%;
     }
+
     .containers .l-div {
         margin: 30px;
     }
+    
+    .containers .div-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .containers input {
+        padding: 24px;
+        width: 30rem;
+        font-size: 23px;
+    }
+
+    .div-container button {
+        width: 245px;
+        padding: 23px;
+        font-size: 20px;
+    }
+    
 }

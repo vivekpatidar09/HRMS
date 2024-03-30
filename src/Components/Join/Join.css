@@ -78,4 +78,9 @@ br{
         justify-content: center;
         margin: auto;
     }
+
+    .home-contain .div-1 h5, p {
+        margin: 17px 0;
+        font-size: 23px;
+    }
 }

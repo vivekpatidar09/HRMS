@@ -5,12 +5,12 @@
 
 .home-contain {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .home-contain .div-1{
     width: 50%;
-    padding: 50px;
+    padding: 66px;
 }
 
 .home-contain h1{
@@ -46,18 +46,21 @@
 }
 
 .home-contain img{
-    width: 30rem;
+    width: 32.5rem;
     position: absolute;
-    right: 1px;
+    right: 28px;
+    z-index: -1;
 }
 
 .dot {
-    height: 25rem;
-    width: 32rem;
+    height: 26rem;
+    width: 35rem;
     z-index: -1;
     background-color: #A5E3DE;
     border-radius: 50%;
     display: inline-block;
+    position: absolute;
+    right: 19px;
   }
 
   .bottom-div{
@@ -118,7 +121,6 @@
     .home-contain {
         display: flex;
         justify-content: center;
-        /* padding: 20px; */
     }
 
     .home-contain button {
@@ -128,36 +130,72 @@
   }  
 
   @media (min-width: 768px) and (max-width: 1024px){
-    .home-contain img{
-        width: 26rem;
+    .dot {
+        height: 31rem;
         position: absolute;
-        right: 1px;
+        left: 10%;
+        width: 40rem;
+    }
+
+    .home-contain img {
+        width: 37rem;
+        position: absolute;
+        left: 9%;
+    }
+
+    .home-contain {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bottom-div p {
+        margin: 0;
+        font-size: 32px;
+    }
+
+    .bottom-div .b-head {
+        margin: 5px 16px;
     }
     
-    .dot {
-        height: 20rem;
-        width: 26rem;
-        z-index: -1;
-        background-color: #A5E3DE;
-        border-radius: 50%;
-        display: inline-block;
-        position: absolute;
-        right: 1px;
-      }
-
-      .home-contain p {
-        width: 23rem;
+    .home-contain .div-1 {
+        width: 100%;
+        padding: 50px 30px;
+        margin-top: 33rem;
     }
 
-      
-    .home-contain .div-1{
-        width: 50%;
-        font-size: 15px;
-        padding: 20px;
+    .bottom-div {
+        font-size: 18px;
+        height: 90px;
+    }
+
+    .div-2{
+        display: flex;
+        overflow: hidden;
+    }
+    
+    .home-contain .div-1 h5, p {
+        margin: 37px 0;
     }
     
     .home-contain {
         display: flex;
-        justify-content: start;
+        justify-content: center;
+        /* padding: 20px; */
+    }
+
+    .home-contain button {
+        padding: 30px;
+        margin: 22px 0;
+        font-size: 28px;
+    }
+
+    .home-contain .div-1 h1 {
+        color: #20B9AE;
+        font-size: 50px;
+    }
+
+    .home-contain p {
+        width: 100%;
+        font-size: 28px;
     }
 }

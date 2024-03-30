@@ -2,14 +2,16 @@
     display: flex;
     padding: 0px;
     justify-content: center;
+    margin: 20px;
+    height: 20rem;
     align-items: center;
 }
 
 .main-container button{
-    background: none;
-    font-size: 70px;
+    background: none;           
     outline: none;
     height: 0;
+    padding: 20px;
     border: none;
     cursor: pointer;
 }
@@ -19,6 +21,27 @@
     /* margin: 14px 50px; */
 }
 
+.main-container .prev{
+    position: absolute;
+    left: 10px;
+    font-size: 4rem;
+    margin-top: -3rem;
+    display: flex ;
+    justify-content: center;
+
+}
+
+.main-container .next{
+    position: absolute;
+    right:  10px;
+    font-size: 4rem;
+    margin-top: -1rem;
+    align-items: center;
+    display: flex ;
+    justify-content: center;
+    
+}
+
 .main-container .div-2 h3{
     margin: 10px;
     display: flex;
@@ -26,13 +49,33 @@
 }
 
 .main-container .div-2{
-    width: 50%;
+    font-size: 20px;
+    width: 40%;
 }
 
 .main-container img {
     width: 22rem;
     margin: 14px 50px;
-    /* position: absolute; */
+}
+
+ .dot1 {
+    height: 15px;
+    width: 15px;
+    background-color:#BCEAE6;
+    margin: 6px;
+    margin-bottom: 60px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot1:hover{
+    background-color: #8acec7;
+  }
+  
+.active .dot1{
+    background-color: #1cafa3;
+    width: 40px;
+    border-radius: 9px;
 }
 
 @media (min-width: 300px) and (max-width: 767px) {
@@ -58,15 +101,65 @@
     
 }
 
-}
-
 .main-container li{
     margin: 10px 0;
 }
 
+.main-container{
+  height: 33rem;
+}
+
+.main-container .div-2 {
+    width: 100%;
+}
+
+}
+
 @media (min-width: 768px) and (max-width: 1024px){
-    .main-container img {
-        width: 22rem;
-        margin: 45px;
-    }
+
+.main-container{
+    height: 66rem;
+  }    
+
+.main-container img {
+    width: 22rem;
+    margin: 45px;
+}
+
+.main-container .prev{
+    position: absolute;
+    left: 10px;
+    font-size: 7rem;
+    margin-top: 5rem;
+    display: flex ;
+    justify-content: center;
+
+}
+
+.main-container .next{
+    position: absolute;
+    right:  10px;
+    margin-top: 9rem;
+    align-items: center;
+    font-size: 7rem;
+    display: flex ;
+    justify-content: center;
+    
+}
+
+.main-container .div-2 {
+    font-size: 44px;
+    width: 89%;
+    display: flex;
+    line-height: 91px;
+    flex-direction: column;
+}
+.element-div h1, h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 37px;
+}
+
 }

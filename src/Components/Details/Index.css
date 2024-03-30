@@ -67,4 +67,11 @@ transition: 0.8s;
         font-size: 19px;
     }
     
+    .index .headings h1, h4 {
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 33px;
+    }
 }    
